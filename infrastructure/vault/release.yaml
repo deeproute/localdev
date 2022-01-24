@@ -6,7 +6,7 @@ metadata:
 spec:
   chart:
     spec:
-      chart: vault
+      chart: hashicorp/vault
       sourceRef:
         kind: HelmRepository
         name: hashicorp
