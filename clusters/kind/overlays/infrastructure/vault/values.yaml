@@ -10,7 +10,7 @@ metadata:
 #    client:
 #      enabled: true
 #      join:
-#        - consul1-p.eu-west-1.impresa.pt
-#        - consul2-p.eu-west-1.impresa.pt
-#        - consul3-p.eu-west-1.impresa.pt
+#        - consul1-p.eu-west-1.xxx
+#        - consul2-p.eu-west-1.xxx
+#        - consul3-p.eu-west-1.xxx
 #      exposeGossipPorts: true
