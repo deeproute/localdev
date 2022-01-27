@@ -9,8 +9,8 @@ spec:
         enabled: true
         replicas: 3
       
-      affinity: null # Use only for dev
-      
+      affinity: "" # Use only for dev
+
       # Enables Vault's integrated Raft storage.  Unlike the typical HA modes where
       # Vault's persistence is external (such as Consul), enabling Raft mode will create
       # persistent volumes for Vault to store data according to the configuration under server.dataStorage.
