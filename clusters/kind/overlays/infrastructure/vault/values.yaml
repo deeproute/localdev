@@ -133,10 +133,10 @@ spec:
       #     - name: plugins
       #       mountPath: /usr/local/libexec/vault
 
-    dataStorage:
-      enabled: true
-      # Size of the PVC created
-      size: 500Mi
+    # dataStorage:
+    #   enabled: true
+    #   # Size of the PVC created
+    #   size: 500Mi
 
     standalone:
       enabled: false
