@@ -14,12 +14,15 @@ spec:
       ha:
         enabled: true
         replicas: 3
+        raft:
+          enabled: true
+          setNodeId: true
       dataStorage:
         size: 100Mi
         storageClass: standard
       ingress:
         enabled: true
-        ingressClassName: "nginx-internal"
+        ingressClassName: "nginx"
         pathType: Prefix
         activeService: true
         hosts:
@@ -27,9 +30,6 @@ spec:
             paths: []
         extraPaths: []
         tls: []
-      raft:
-        enabled: true
-        setNodeId: true
-
+    
     ui:
       enabled: true
