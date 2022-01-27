@@ -79,7 +79,7 @@ spec:
     ui:
       enabled: true
 
-    affinity: null # Use only for dev
+    affinity: "" # Use only for dev
     
     # podDisruptionBudget:
     #   maxUnavailable: 1
