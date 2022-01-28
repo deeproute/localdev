@@ -21,7 +21,7 @@ spec:
         size: 100Mi
         storageClass: standard
       ingress:
-        enabled: true
+        enabled: false
         ingressClassName: "nginx"
         pathType: Prefix
         activeService: true
