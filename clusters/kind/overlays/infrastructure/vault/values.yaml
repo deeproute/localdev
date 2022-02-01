@@ -21,12 +21,12 @@ spec:
         size: 100Mi
         storageClass: standard
       ingress:
-        enabled: false
+        enabled: true
         ingressClassName: "nginx"
         pathType: Prefix
         activeService: true
         hosts:
-          - host: vault-server.vault
+          - host: vault.local.bytefusion.io
             paths: []
         extraPaths: []
         tls: []
