@@ -11,16 +11,4 @@ spec:
         kind: HelmRepository
         name: hashicorp
         namespace: flux-system
-      #version: '>0.32.0 <0.33.0'
   interval: 10m
-#  values:
-#    global:
-#      name: vault
-#    client:
-#      extraConfig: |
-#        {
-#          "limits": {
-#            "http_max_conns_per_client": 400
-#          }
-#        }
-#      exposeGossipPorts: 'true'
