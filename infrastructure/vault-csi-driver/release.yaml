@@ -6,9 +6,9 @@ metadata:
 spec:
   chart:
     spec:
-      chart: vault
+      chart: secrets-store-csi-driver
       sourceRef:
         kind: HelmRepository
-        name: hashicorp
+        name: secrets-store-csi-driver
         namespace: flux-system
   interval: 10m
